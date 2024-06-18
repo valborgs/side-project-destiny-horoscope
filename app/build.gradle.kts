@@ -56,7 +56,7 @@ dependencies {
     // 파이어베이스 관련 종속성 추가
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-analytics")
-    implementation("com.firebaseui:firebase-ui-auth")
+    implementation("com.firebaseui:firebase-ui-auth:7.2.0")
     implementation("com.google.firebase:firebase-firestore")
 
     implementation(libs.androidx.core.ktx)
